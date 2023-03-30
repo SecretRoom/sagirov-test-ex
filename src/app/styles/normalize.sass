@@ -11,8 +11,17 @@ body
   font-family: 'Montserrat', sans-serif !important
   line-height: 1
   scroll-behavior: smooth
-  background-image: url('../images/background.jpeg')
+  background-image: url('../images/background.webp')
+  background-position: center center
+  background-size: cover
   background-repeat: no-repeat
-  background-position: center
-  background-size: covers
+  background-attachment: fixed
   height: 100%
+  overflow: hidden
+  font-size: 22px
+  letter-spacing: 1px
+
+#root
+  height: 100%
+  display: grid
+  grid-template-rows: max-content 1fr
